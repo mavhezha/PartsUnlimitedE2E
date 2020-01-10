@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/about.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/services.css');?>">
 
     <!-------Fontawesome------------------------------------------------------------------------------------------>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fontawesome/css/all.css');?>">
@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </header>
 
     <section id="main-content">
-        <div id="serves-intro">
+        <div id="services-intro">
             <div class="container">
                 <h3>Our Passion Your Succes</h3>
                 <p>We aim to provide untimely assistance inclusive of end to end services in visa assistance, travel assistance and admissions in undergraduate and postgraduate disciplines of study along with eradicating the hustle of tutorial services for IELTS/PTE through our STUDY IN POLAND CAMPAIGN thus making us a one stop shop for overseas education.
