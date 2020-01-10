@@ -5,7 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
-        //Eureka!!! I made a comment. "smile, smile"
+        //My second commit
         [Key]
         public int CartItemId { get; set; }
 
