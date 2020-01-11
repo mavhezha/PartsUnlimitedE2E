@@ -46,7 +46,7 @@ body{
 }
 
 .bluer-shade{
-  color: #0f1aee;
+  color: #0f1aee !important;
 }
 
 h3{
@@ -112,7 +112,7 @@ h3{
  *
  * ------------------------------------------------------------------- */
 #services-container{
-padding-bottom: 30px; 
+padding-bottom: 50px; 
 background-color: #f9f9f7;
 }
 
@@ -138,13 +138,12 @@ margin-top: 40px;
 .service .service-icon {
  font-size: 50px;
  line-height: 50px;
- color: #5d5d5d;
+ color: #0f1aee;
 }
 
 .service .service-icon i { vertical-align: middle; }
 
 .service h3 {
- margin-top: 13px;
  font-family: 'Droid Sans', sans-serif;
  font-size: 14px;
  color: #5d5d5d;
@@ -175,7 +174,7 @@ margin-top: 40px;
  *
  * ------------------------------------------------------------------- */
  #body-footer{
-    margin-top: 30px;
+    padding-top: 30px;
     background-color: #000;
     opacity: .8;
     color: #fff;

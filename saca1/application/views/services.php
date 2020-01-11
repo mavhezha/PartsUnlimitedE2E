@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!--05..services begins-->
         <div id="services-container">
           <div class="container">
-              <h3>Our Services</h3>
+              <h3>Our <span class="bluer-shade">Services</span></h3>
               <div class="row">
                 <!--First row starts-->
                 <div class="col-sm-4">
@@ -108,8 +108,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
 
-        
     </section>
+
+    <section id="body-footer">
+        <?php include('utils/footer.php');?>
+        <div class="container signature d-flex justify-content-center">
+        <div class="row">
+          <div class="col-md-12">
+              <span>© Copyright studyabroad 2019</span>&nbsp; &#124; &nbsp;
+              <span>Design by <span class="designer">Arnold Mavhezha</span></span>&nbsp; &#124; &nbsp;
+              <span><i class="fas fa-phone-alt"></i> +91 901 698 1585</span>
+          </div>
+        </div>
+        </div>
+</section>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
