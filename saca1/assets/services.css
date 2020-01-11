@@ -101,12 +101,64 @@ h3{
  * ------------------------------------------------------------------- */
  #services-intro{
      background: #000;
+     opacity: .8;
+     padding: 100px 0px 50px 0px;
+     text-align: center;
+     color: #fff;
  }
 
  /* ===================================================================
- *  03. 
+ *  05. services 
  *
  * ------------------------------------------------------------------- */
+#services-container{
+padding-bottom: 30px; 
+background-color: #f9f9f7;
+}
+
+#services-container h3{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.service {
+margin-top: 40px;
+ padding: 15px 15px 20px 15px;
+ background: #f8f8f8;
+ border-bottom: 2px solid #111781;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+}
+
+.service:hover {
+ box-shadow: 0 5px 15px 0 rgba(0,0,0,.05), 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
+ -o-transition: all .5s; -moz-transition: all .5s; -webkit-transition: all .5s; -ms-transition: all .5s; transition: all .5s;
+}
+
+.service .service-icon {
+ font-size: 50px;
+ line-height: 50px;
+ color: #5d5d5d;
+}
+
+.service .service-icon i { vertical-align: middle; }
+
+.service h3 {
+ margin-top: 13px;
+ font-family: 'Droid Sans', sans-serif;
+ font-size: 14px;
+ color: #5d5d5d;
+ font-weight: bold;
+ text-transform: uppercase;
+ text-shadow: 0 1px 0 rgba(255,255,255,.7);
+
+}
+
+.service p {
+ padding-bottom: 7px;
+ line-height: 24px;
+}
+
 
  /* ===================================================================
  *  03.
