@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
         </div>
-</section>
+    </section>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

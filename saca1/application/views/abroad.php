@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/about.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/abroad.css');?>">
 
     <!-------Fontawesome------------------------------------------------------------------------------------------>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fontawesome/css/all.css');?>">
@@ -22,8 +22,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	   <?php include('utils/nav.php');?>
     </header>
 
-    <section>
+    <section id="main-content">
         <h1>Study abroad</h1>
+    </section>
+
+    <section id="body-footer">
+        <?php include('utils/footer.php');?>
+        <div class="container signature d-flex justify-content-center">
+        <div class="row">
+          <div class="col-md-12">
+              <span>© Copyright studyabroad 2019</span>&nbsp; &#124; &nbsp;
+              <span>Design by <span class="designer">Arnold Mavhezha</span></span>&nbsp; &#124; &nbsp;
+              <span><i class="fas fa-phone-alt"></i> +91 901 698 1585</span>
+          </div>
+        </div>
+        </div>
     </section>
     
     <!-- Optional JavaScript -->
