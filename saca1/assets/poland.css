@@ -49,6 +49,18 @@ body{
   color: #0f1aee !important;
 }
 
+.green-shade{
+  color: #309138;
+}
+
+.grey-shade{
+  color: #d8d8da;
+}
+
+.bold{
+  font-weight: 700;
+}
+
 h3{
   font-size: 2.3rem;
   font-weight: bolder !important;
@@ -96,6 +108,83 @@ h3{
 }
 
 /* ===================================================================
+ *  04. poland-banner
+ *
+ * ------------------------------------------------------------------- */
+ #poland-banner{
+   background: url("images/poland.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100%;
+   height: 660px;
+ }
+
+ /* ===================================================================
+ *  05. marquee
+ *
+ * ------------------------------------------------------------------- */
+ .marq-text{
+   color: #309138;
+   font-size: 1.8rem;
+   font-weight: 900;
+   word-spacing: 10px;
+ }
+
+ /* ===================================================================
+ *  06. why-study
+ *
+ * ------------------------------------------------------------------- */
+ #why-study{
+   background-color: #309138;
+   padding: 20px 0px;
+ }
+
+ /* ===================================================================
+ *  07. mainContainer
+ *
+ * ------------------------------------------------------------------- */
+ #mainContainer {
+  padding: 40px 200px;
+}
+
+
+
+/* ===================================================================
+ *  08. registration
+ *
+ * ------------------------------------------------------------------- */
+
+.bg-dark{
+  background-color: #309138 !important;
+  border-radius: 5px;
+}
+
+.txt, .form-group input[type="text"], input[type="email"], input[type="phone"], input[type="date"]{
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  color: grey;
+  padding: 10px;
+}
+
+.r h5{
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+form{
+  padding-top: 20px;
+}
+
+.btn{
+  color: #000;
+  font-weight: 700;
+}
+
+ /* ===================================================================
  *  10. body footer
  *
  * ------------------------------------------------------------------- */

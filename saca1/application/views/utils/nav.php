@@ -15,14 +15,28 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('services')?>">Services</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('abroad')?>">Study Abroad</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Study Abroad
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="<?php echo base_url('poland');?>">Poland</a>
+          <a class="dropdown-item" href="#">India</a>
+          <a class="dropdown-item" href="#">China</a>
+          <a class="dropdown-item" href="#">Malaysia</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('gallery')?>">Gallery</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('contact')?>">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('contact')?>"><button class="btn-log">Login</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('contact')?>"><button class="btn-sign">Sign up</button></a>
       </li>
     </ul>
   </div>

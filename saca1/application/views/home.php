@@ -7,6 +7,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <title><?= $title ?></title>
     <!-------Bootstrap--------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo base_url('assets/animate.css');?>">
+    <!--link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>"-->
 
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
@@ -32,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="about-us">
       <div class="container">
           <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 animated slideInLeft delay-2s">
                   <h3 class="intro-info">OUR <span class="blue-shade">GLOBAL</span> PRESENCE</h3>
                   <p>Abroad Gateway specializes in assisting students to pursue their dreams of studying abroad. We provide students with tailor-made career pathways that perfectly fit their individual profiles and future goals.</p>
 
@@ -40,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                   <button class="btn btn-primary">Read More</button>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 animated fadeInRight">
                   <img src="<?php echo base_url('assets/images/advise.jpg');?>" width="100%">
               </div>
           </div>
@@ -257,6 +259,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-4 reg-intro">
                     <h5>Request <span class="bluer-shade">Information</span></h5>
 
@@ -349,7 +352,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="assets/js/jquery/jquery.numscroller-1.0.js"></script>
+
+<!--Offline-->
+<!--script src="assets/js/jquery/jquery.js"></script>
+<script src="assets/js//bootstrap.min.js"></script>
+<script src="assets/js/jquery/jquery.numscroller-1.0.js"></script-->
 
     <script type="text/javascript">
       $(document).scroll(function(){
