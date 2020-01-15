@@ -64,36 +64,63 @@ h3{
   font-size: 1.55rem;
   text-transform: uppercase;
 }
+
+.btn-primary{
+  background-color:  #4485af;
+  margin-bottom: 5px;
+}
+
+.btn-log{
+  padding-right: 15px;
+  background-color: #282ea7;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-sign{
+  background-color: #818297;
+  border-radius: 5px;
+  border: none;
+}
+
+a {
+  border: none;
+}
+
 /* ===================================================================
  *  03. banner & main navigation bar
  *
  * ------------------------------------------------------------------- */
-.bg-light{
-    opacity: 0.8;
+ .bg-light{
+  opacity: 0.8;
 }
 
 .navbar.scrolled{
-  background: #fff !important;
-  opacity: 1;
-	transition: 0.5s;
+background: #fff !important;
+opacity: 1;
+transition: 0.5s;
+padding: 0px;
 }
+
 
 
 .navbar-nav .nav-item:last-child{
-  margin-right: 100px;
+margin-right: 100px;
 }
 
 .navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: .9rem;
-  font-weight: bolder;
-  color: #0f1aee !important;
+padding-right: 0;
+padding-left: 0;
+font-size: .9rem;
+font-weight: bolder;
+color: #0f1aee !important;
 }
 
 .navbar-nav .nav-link:hover{
-  color: rgb(16, 1, 153) !important;
+color: rgb(16, 1, 153) !important;
 }
+
 #banner{
     background: #000 url("images/about.jpg");
     background-repeat: no-repeat;

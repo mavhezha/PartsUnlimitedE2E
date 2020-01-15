@@ -21,9 +21,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="<?php echo base_url('poland');?>">Poland</a>
-          <a class="dropdown-item" href="#">India</a>
-          <a class="dropdown-item" href="#">China</a>
-          <a class="dropdown-item" href="#">Malaysia</a>
+          <a class="dropdown-item" href="<?php echo base_url('india');?>">India</a>
+          <a class="dropdown-item" href="<?php echo base_url('china');?>">China</a>
+          <a class="dropdown-item" href="<?php echo base_url('malaysia');?>">Malaysia</a>
         </div>
       </li>
       <li class="nav-item">

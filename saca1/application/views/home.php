@@ -8,7 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-------Bootstrap--------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo base_url('assets/animate.css');?>">
-    <!--link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>"-->
 
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
@@ -24,9 +23,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	   <?php include('utils/nav.php');?>
 	</header>
 
-
 	  <section id="banner">
-
+            <div class="blink">
+                <h3>
+                <span class="blinking b">
+                    Study Abroad <br>
+                    with <br>
+                    Abroad Gateway!
+                </span>
+                </h3>
+            </div>  
     </section>
 	
 
@@ -34,15 +40,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="about-us">
       <div class="container">
           <div class="row">
-              <div class="col-md-6 animated slideInLeft delay-2s">
+              <div class="col-md-6">
                   <h3 class="intro-info">OUR <span class="blue-shade">GLOBAL</span> PRESENCE</h3>
                   <p>Abroad Gateway specializes in assisting students to pursue their dreams of studying abroad. We provide students with tailor-made career pathways that perfectly fit their individual profiles and future goals.</p>
 
                   <p>With well-qualified and trained counselors, we strive to always provide students with ethical counseling by only giving them with the most genuine and honest advice. So whether you are not sure which course to choose or if you will be able to afford to go to a university, we can provide you with the most fitted roadmap possible.</p>
 
-                  <button class="btn btn-primary">Read More</button>
+                  <a href="<?php echo base_url('about');?>">
+                      <button class="btn btn-primary">Read More</button>
+                  </a>
               </div>
-              <div class="col-md-6 animated fadeInRight">
+              <div class="col-md-6">
                   <img src="<?php echo base_url('assets/images/advise.jpg');?>" width="100%">
               </div>
           </div>
@@ -69,65 +77,94 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="row">
                 <!--First row starts-->
                 <div class="col-sm-4">
-                    <div class="service wow fadeInUp">
+                    <div class="service">
                         <div class="service-icon">
                             <i class="fas fa-id-card"></i>
                         </div>
                         <h3>Student Profile Analysis</h3>
                         <p>We provide an apt and introspective assessment of potential clients academic needs as well as their recreational and residential preference in relation to their study destinations.</p>
-                        <button class="btn btn-primary">Read More</button>
+                        <a href="<?php echo base_url('services');?>">
+                            <button class="btn btn-primary">
+                                Read More
+                            </button>
+                        </a>
                     </div>
                  </div>
                  <div class="col-sm-4">
-                    <div class="service wow fadeInDown">
+                    <div class="service">
                         <div class="service-icon">
                            <i class="fas fa-handshake"></i>
                         </div>
                         <h3>Career counselling</h3>
-                        <p>Our relationship extends to career prospects in relation with the clients abilities as well as aspirations. We advise in good conscience and good faith the appropriate avenue of occupation.</p>
-                        <button class="btn btn-primary">Read More</button>
+                        <p>Our relationship extends to career prospects in relation with the clients abilities as well as aspirations. We advise in good conscience and good faith the appropriate avenue of occupation.
+                        </p>
+                        <a href="<?php echo base_url('services');?>">
+                            <button class="btn btn-primary">
+                                Read More
+                            </button>
+                        </a>
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <div class="service wow fadeInUp">
+                    <div class="service">
                         <div class="service-icon">
                            <i class="fas fa-atlas"></i>
                         </div>
                         <h3>Visa Guidance</h3>
-                        <p>We will not take any chance at all with your visa. All AG students receive free visa counseling, visa file preparation & mock training for visa interviews from our experienced visa counselors.</p>
-                        <button class="btn btn-primary">Read More</button>
+                        <p>We will not take any chance at all with your visa. All AG students receive free visa counseling, visa file preparation & mock training for visa interviews from our experienced visa counselors.
+                        </p>
+                        <a href="<?php echo base_url('services');?>">
+                            <button class="btn btn-primary">
+                                Read More
+                            </button>
+                        </a>
                     </div>
                   </div>
 
                   <!--Second row-->
                 <div class="col-sm-4">
-                    <div class="service wow fadeInUp">
+                    <div class="service">
                         <div class="service-icon">
                            <i class="fas fa-plane-departure"></i>
                         </div>
                         <h3>Pre-Departure Consultation</h3>
-                        <p>We arrange a pre departure seminar or meet for all of our clients and even a chance for guardians and parents to dispel any inquiries or doubts about the entire process.</p>
-                        <button class="btn btn-primary">Read More</button>
+                        <p>We arrange a pre departure seminar or meet for all of our clients and even a chance for guardians and parents to dispel any inquiries or doubts about the entire process.
+                        </p>
+                        <a href="<?php echo base_url('services');?>">
+                            <button class="btn btn-primary">
+                                Read More
+                            </button>
+                        </a>
                     </div>
                 </div>
                  <div class="col-sm-4">
-                    <div class="service wow fadeInDown">
+                    <div class="service">
                         <div class="service-icon">
                             <i class="fas fa-plane-arrival"></i>
                         </div>
                         <h3>Post-Arrival Assistance</h3>
-                        <p>Our relationship does not conclude upon departure. It extends to a warm welcome and accommodation by our partners at the destinations to make you feel at home.</p>
-                        <button class="btn btn-primary">Read More</button>
+                        <p>Our relationship does not conclude upon departure. It extends to a warm welcome and accommodation by our partners at the destinations to make you feel at home.
+                        </p>
+                        <a href="<?php echo base_url('services');?>">
+                            <button class="btn btn-primary">
+                                Read More
+                            </button>
+                        </a>
                     </div>
                   </div>
                   <div class="col-sm-4">
-                    <div class="service wow fadeInUp">
+                    <div class="service">
                         <div class="service-icon">
                             <i class="fas fa-user-tie"></i>
                         </div>
                         <h3>Part time Job Assistance</h3>
-                        <p>We provide a steadfast assistance to avail the courtesy of part-time jobs for students in need of funds to reduce their financial burden of studying and living abroad.</p>  
-                        <button class="btn btn-primary">Read More</button>               
+                        <p>We provide a steadfast assistance to avail the courtesy of part-time jobs for students in need of funds to reduce their financial burden of studying and living abroad.
+                        </p>  
+                        <a href="<?php echo base_url('services');?>">
+                            <button class="btn btn-primary">
+                                Read More
+                            </button>
+                        </a>               
                     </div>
                   </div>
               </div>
@@ -160,7 +197,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <img src="<?php echo base_url('assets/images/poland-flag.jpg');?>" alt="poland-flag" width="60px" height="38px" class="flag">
                         <h6>Poland</h6>
                      </div>
-                     <p>Poland is located in the very centre of Europe. For students from outside the European Union who come to study in Poland, this may well be the beginning of a fascinating adventure of discovering Europe. Being invited to study in Poland means that you are invited to the European Union, of which Poland is an active member state. Studying in Poland can be one of the best experiences in your life. <br> <a href="" class="blue-shade">Read more...</a>
+                     <p>Poland is located in the very centre of Europe. For students from outside the European Union who come to study in Poland, this may well be the beginning of a fascinating adventure of discovering Europe. Being invited to study in Poland means that you are invited to the European Union, of which Poland is an active member state. Studying in Poland can be one of the best experiences in your life. 
+                     <br>
+                     <a href="<?php echo base_url('poland');?>" class="blue-shade">
+                         Read more...
+                     </a>
                      </p>
                    </div>
                 </div>
@@ -172,7 +213,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <img src="<?php echo base_url('assets/images/india-flag.jpg');?>" alt="india-flag" width="60px" height="38px" class="flag">
                           <h6>India</h6>
                        </div>
-                       <p>Today, India is known as a communication hub, and has become popular with study abroad students from all over the world. It is highly attractive due to its forward thinking, its popularity with large multinational companies, and also due to English being the common language of communication. According to Peter Drucker, "India is become a power house very fast." <br> <a href="" class="blue-shade">Read more...</a></p>
+                       <p>Today, India is known as a communication hub, and has become popular with study abroad students from all over the world. It is highly attractive due to its forward thinking, its popularity with large multinational companies, and also due to English being the common language of communication. According to Peter Drucker, "India is become a power house very fast." 
+                       <br>
+                       <a href="<?php echo base_url('india');?>" class="blue-shade">
+                         Read more...
+                       </a>
+                       </p>
                     </div>
                 </div>
                   
@@ -183,7 +229,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                          <img src="<?php echo base_url('assets/images/china-flag.jpg');?>" alt="china-flag" width="60px" height="38px" class="flag">
                          <h6>China</h6>
                       </div>
-                      <p>China has become one of the best career conducive nations spearheading industrialization and a leader of the global economy, making it a very enticing study abroad location. And while you thought just looking for the perfect destination to study abroad was overwhelming, you’ve now found it is even more overwhelming since you choose such a question mark of a country like China. <br> <a href="" class="blue-shade">Read more...</a></p>
+                      <p>China has become one of the best career conducive nations spearheading industrialization and a leader of the global economy, making it a very enticing study abroad location. And while you thought just looking for the perfect destination to study abroad was overwhelming, you’ve now found it is even more overwhelming since you choose such a question mark of a country like China. 
+                      <br>
+                      <a href="<?php echo base_url('china');?>" class="blue-shade">
+                         Read more...
+                      </a>
+                      </p>
                    </div>
                 </div>
                  
@@ -194,7 +245,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                          <img src="<?php echo base_url('assets/images/malaysia-flag.jpg');?>" alt="malaysia-flag" width="60px" height="38px" class="flag">
                          <h6>Malaysia</h6>
                       </div>
-                      <p>Malaysia is one of the most vibrant countries in Southeast Asia. The rich culture, amazing food, bustling metropolises and dirt-cheap prices are some of the reasons why Malaysia has earned the slogan “Truly Asia”. Malaysia welcomes international students for all levels of education. Today, Malaysia is ranked the 11th most popular destination in the world for international education at tertiary level. <br> <a href="" class="blue-shade">Read more...</a></p>
+                      <p>Malaysia is one of the most vibrant countries in Southeast Asia. The rich culture, amazing food, bustling metropolises and dirt-cheap prices are some of the reasons why Malaysia has earned the slogan “Truly Asia”. Malaysia welcomes international students for all levels of education. Today, Malaysia is ranked the 11th most popular destination in the world for international education at tertiary level. 
+                      <br> 
+                      <a href="<?php echo base_url('malaysia');?>" class="blue-shade">
+                         Read more...
+                      </a>
+                      </p>
                    </div>
                 </div>
             </div>
@@ -261,7 +317,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 
                 <div class="col-md-4 reg-intro">
-                    <h5>Request <span class="bluer-shade">Information</span></h5>
+                    <h5>Request <span class="bluer-shade">Information</span>
+                    </h5>
 
                     <form action="">
                         <div class="form-group">
@@ -319,7 +376,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
            <div class="col-md-4">
               <h5>Get <span class="blue-shade">Address</span></h5>
-              <p>GF-6, Shree Flat <br> Near Dream Iconia <br> Vadodara, Gujarat 390011 <br> India</p>
+              <p>Flat A/902, Dovedeck <br> Near American School <br> Vadodara, Gujarat 390011 <br> India</p>
            </div>
 
            <div class="col-md-3">
@@ -355,8 +412,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!--Offline-->
 <!--script src="assets/js/jquery/jquery.js"></script>
-<script src="assets/js//bootstrap.min.js"></script>
-<script src="assets/js/jquery/jquery.numscroller-1.0.js"></script-->
+<script src="assets/js//bootstrap.min.js"></script-->
+<script src="assets/js/jquery/jquery.numscroller-1.0.js"></script>
 
     <script type="text/javascript">
       $(document).scroll(function(){

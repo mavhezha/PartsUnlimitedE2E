@@ -76,35 +76,61 @@ h3{
   font-size: 1.55rem;
   text-transform: uppercase;
 }
+
+.btn-primary{
+  background-color:  #4485af;
+  margin-bottom: 5px;
+}
+
+.btn-log{
+  padding-right: 15px;
+  background-color: #282ea7;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-sign{
+  background-color: #818297;
+  border-radius: 5px;
+  border: none;
+}
+
+a {
+  border: none;
+}
+
 /* ===================================================================
  *  03. banner & main navigation bar
  *
  * ------------------------------------------------------------------- */
 .bg-light{
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .navbar.scrolled{
-  background: #fff !important;
-  opacity: 1;
-	transition: 0.5s;
+background: #fff !important;
+opacity: 1;
+transition: 0.5s;
+padding: 0px;
 }
+
 
 
 .navbar-nav .nav-item:last-child{
-  margin-right: 100px;
+margin-right: 100px;
 }
 
 .navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: .9rem;
-  font-weight: bolder;
-  color: #0f1aee !important;
+padding-right: 0;
+padding-left: 0;
+font-size: .9rem;
+font-weight: bolder;
+color: #0f1aee !important;
 }
 
 .navbar-nav .nav-link:hover{
-  color: rgb(16, 1, 153) !important;
+color: rgb(16, 1, 153) !important;
 }
 
 /* ===================================================================
@@ -112,7 +138,7 @@ h3{
  *
  * ------------------------------------------------------------------- */
  #poland-banner{
-   background: url("images/poland.jpg");
+   background: url("images/poland-info.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
@@ -125,7 +151,6 @@ h3{
  *
  * ------------------------------------------------------------------- */
  .marq-text{
-   color: #309138;
    font-size: 1.8rem;
    font-weight: 900;
    word-spacing: 10px;
@@ -136,7 +161,7 @@ h3{
  *
  * ------------------------------------------------------------------- */
  #why-study{
-   background-color: #309138;
+   background-color: #4485af;
    padding: 20px 0px;
  }
 
@@ -156,7 +181,7 @@ h3{
  * ------------------------------------------------------------------- */
 
 .bg-dark{
-  background-color: #309138 !important;
+  background-color:#4485af !important;
   border-radius: 5px;
 }
 

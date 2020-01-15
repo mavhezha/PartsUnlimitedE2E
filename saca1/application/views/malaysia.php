@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/poland.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/malaysia.css');?>">
 
     <!--link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>"-->
 
@@ -33,23 +33,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!--05. marquee-->
         <div id="marq">
            <marquee>
-               <span class="marq-text blue-shade">Get an opportunity to Study in Poland</span>
+               <span class="marq-text black-shade">Get an opportunity to Study in India</span>
            </marquee>
         </div>
 
         <!--06. why-study-->
         <div id="why-study">
             <div class="container">
-                <h4>Why study in Poland</h4>
-                <ul>
-                    <li>Work Part time.</li>
-                    <li>Internationally Recognized degrees.</li>
-                    <li>Travel across Europe visa free.</li>
-                    <li>Affordable living conditions.</li>
-                    <li>Extension of visa upon completion of degree for job search.</li>
-                    <li>Affordable fees.</li>
-                    <li>Minimum wage 480 Euro.</li>
-                </ul>
+                <h4>Why study in India</h4>
+                <p>
+                   <ol>
+                       <li>Rapidly Improving Quality Higher Education</li>
+                       <li>Destination For International Degrees</li>
+                       <li>Lower Costs Of Studying & Living</li>
+                       <li>Job Opportunities For Students</li>
+                       <li> Seamless Immigration Procedures</li>
+                       <li>Safety Not A Concern</li>
+                       <li>Unique & Diverse Culture</li>
+                       <li>No Language Barriers</li>
+                       <li>Wanderlust For Travel Enthusiasts</li>
+                   </ol>
+                </p>
             </div>
         </div>
 
@@ -60,50 +64,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="mainContainer">
 	<div class="containter">
 	   <div class="row">
-           <div class="col-md-9">
+           <div class="col-md-9 left">
 			   <div id="basic-info">
-                   <h3>Basic <span class="blue-shade">Information</span></h3>
+                   <h3>Basic <span class="black-shade">Information</span></h3>
                    <p>
-                        The Republic of Poland (Rzeczpospolita Polska) is one of the largest countries in Central Europe, bordering Russia, Lithuania, Belarus, Ukraine, Slovakia, the Czech Republic and Germany.
+                   Located in between the Indian Ocean and the South China Sea, Malaysia is a warm weather country bordered by Thailand and Indonesia. Malaysia is divided into two parts; Peninsular Malaysia, which has several mountain ranges and fertile plains, and East Malaysia, which contains many rivers and tropical rainforests. Because of its location, Malaysia has a diverse spread of different people and things to do. Malaysia is the 11th most preferred study destination in the world, as rated by UNESCO. 
                     </p>
-                   <p><span class="bold">Population –</span> 38,637,899 people </p>
+                    
+                    <h5 class="bold brown-shade">
+                        Malaysia in short facts & figures
+                    </h5>
                    <p>
-                       <span class="bold">
-                           Major Cities in Poland
-                        </span>
-                        <ol>
-                            <li>Warsaw</li>
-                            <li>Krakow</li>
-                            <li>Lodz</li>
-                            <li>Wroclaw  </li>
-                            <li>Poznan</li>
-                            <li>Gdansk</li>
-                            <li>Szczecin</li>
-                            <li>Lublin</li>
-                        </ol>
-                    </p>
-                    <p>
-                    Weather in Poland is situated in a moderate climate zone. In summer (July) – the temperature varies from 25° to 35° Celsius. The coldest months are January and February with temperatures falling a couple of degrees below zero. <br>
-                    <ol>
-                        <li> 
-                            <span class="bold">Autumn:</span> from September to November.
-                        </li>
-                        <li>
-                            <span class="bold">Winter:</span> from December to February.
-                        </li>
-                        <li>
-                            <span class="bold">Spring:</span> from March to May.
-                        </li>
-                        <li>
-                            <span class="bold">Summer:</span> from June to August.
-                        </li>
-                    </ol>
-                    </p>
+                       <span class="bold">Capital:</span> Kuala Lumpur
+                   </p>
+                   <p>
+                       <span class="bold">Official language(s):</span>  Malay (official), English, Tamil, and Chinese (Cantonese).
+                   </p>
+                   <p>
+                       <span class="bold">Government:</span> Federal parliamentary republic
+                   </p>
+                   <p>
+                       <span class="bold">Area:</span> 329,847 km²
+                   </p>
+                   <p>
+                       <span class="bold">Population:</span> 31.6 million people (in 2016)
+                   </p>   
+                   <p>
+                   Malaysia is a beautiful and diverse country with many highlights. The many different regions, each with their own characteristic features, make this country the perfect destination for tourists. However, Malaysia does not entirely depend on tourism. This country's economy has been going strong for years. On the contrary to what some people (still) believe, Malaysia is not a third world country. The country has developed itself enormously in the past 50 years and this is clearly noticeable when visiting it. Especially in Malaysia's capital, Kuala Lumpur, you will see many modern buildings, a modern light rail transit system, many luxurious shopping malls and countless expensive cars on the roads. Life outside of the capital is often less developed; but even there the times of people only being able to afford a motorcycle are long gone.
+                   </p> 
                </div>
 		   </div>
 
            <div class="col-md-3 r px-1 bg-dark min-vh-50">
-            <div class="py-2 sticky-top flex-grow-1">
+            <div class="py-5 sticky-top flex-grow-1">
                 <div class="nav flex-sm-column">
 					<div class="container">
                         <!--08. Request-->

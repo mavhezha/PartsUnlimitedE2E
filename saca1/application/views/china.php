@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/poland.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/china.css');?>">
 
     <!--link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>"-->
 
@@ -33,23 +33,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!--05. marquee-->
         <div id="marq">
            <marquee>
-               <span class="marq-text blue-shade">Get an opportunity to Study in Poland</span>
+               <span class="marq-text greyer-shade">Get an opportunity to Study in China</span>
            </marquee>
         </div>
 
         <!--06. why-study-->
         <div id="why-study">
             <div class="container">
-                <h4>Why study in Poland</h4>
-                <ul>
-                    <li>Work Part time.</li>
-                    <li>Internationally Recognized degrees.</li>
-                    <li>Travel across Europe visa free.</li>
-                    <li>Affordable living conditions.</li>
-                    <li>Extension of visa upon completion of degree for job search.</li>
-                    <li>Affordable fees.</li>
-                    <li>Minimum wage 480 Euro.</li>
-                </ul>
+                <h4>Why study in China</h4>
+                <p>
+                    India has undergone a paradigm shift owing to its competitive stand in the world. The Indian economy is on a robust growth trajectory and boasts of a stable 8 plus annual growth rate, rising foreign exchange reserves and booming capital markets among others.
+                </p>
+                <p><span class="bold">Low Cost:</span> The cost of education in India is quite low as compared to many other countries of the world.</p>
             </div>
         </div>
 
@@ -60,50 +55,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="mainContainer">
 	<div class="containter">
 	   <div class="row">
-           <div class="col-md-9">
+           <div class="col-md-9 left">
 			   <div id="basic-info">
-                   <h3>Basic <span class="blue-shade">Information</span></h3>
+                   <h3>Basic <span class="greyer-shade">Information</span></h3>
                    <p>
-                        The Republic of Poland (Rzeczpospolita Polska) is one of the largest countries in Central Europe, bordering Russia, Lithuania, Belarus, Ukraine, Slovakia, the Czech Republic and Germany.
-                    </p>
-                   <p><span class="bold">Population –</span> 38,637,899 people </p>
+                   China has become one of the best career conducive nations spearheading industrialization and a leader of the global economy, making it a very enticing study abroad location. And while you thought just looking for the perfect destination to study abroad was overwhelming, you’ve now found it is even more overwhelming since you choose such a question mark of a country like China.
+                   </p>
+                   <p>China is an entirely different world and there’s a lot you need to learn, young grasshopper, before you pack up and ride off into the sunset to studying abroad in China.
+                   </p>
+                    
+                    <h5 class="bold greyer-shade">
+                        China in short facts & figures
+                    </h5>
                    <p>
-                       <span class="bold">
-                           Major Cities in Poland
-                        </span>
-                        <ol>
-                            <li>Warsaw</li>
-                            <li>Krakow</li>
-                            <li>Lodz</li>
-                            <li>Wroclaw  </li>
-                            <li>Poznan</li>
-                            <li>Gdansk</li>
-                            <li>Szczecin</li>
-                            <li>Lublin</li>
-                        </ol>
-                    </p>
-                    <p>
-                    Weather in Poland is situated in a moderate climate zone. In summer (July) – the temperature varies from 25° to 35° Celsius. The coldest months are January and February with temperatures falling a couple of degrees below zero. <br>
-                    <ol>
-                        <li> 
-                            <span class="bold">Autumn:</span> from September to November.
-                        </li>
-                        <li>
-                            <span class="bold">Winter:</span> from December to February.
-                        </li>
-                        <li>
-                            <span class="bold">Spring:</span> from March to May.
-                        </li>
-                        <li>
-                            <span class="bold">Summer:</span> from June to August.
-                        </li>
-                    </ol>
-                    </p>
+                       <span class="bold">Capital:</span>  Beijing (pop 13.8 million)
+                   </p>
+                   <p>
+                       <span class="bold">Official language:</span> Putonghua (Beijing Mandarin dialect)
+                   </p>
+                   <p>
+                       <span class="bold">Government:</span> Communist republic
+                   </p>
+                   <p>
+                       <span class="bold">Area:</span> 9,596,960 sq km (mainland)
+                   </p>
+                   <p>
+                       <span class="bold">Population:</span>1.25 billion (mainland)
+                   </p>
+                   <p>
+                   China, one of the four oldest civilizations in the world, has a written history of 4,000 years and boasts rich cultural relics and historical sites. It is the inventor of compass, paper, gunpowder and printing. The Great Wall, the Grand Canal and the Karez irrigation systems are three great ancient engineering projects built 2,000 years ago. Now they are the symbols of the rich culture heritage of the Chinese nation. China has gone over a long history of primitive society, slavery society, feudal society and semi-feudal semi-colonial society and the present socialist society.
+                   </p>
+    
                </div>
 		   </div>
 
            <div class="col-md-3 r px-1 bg-dark min-vh-50">
-            <div class="py-2 sticky-top flex-grow-1">
+            <div class="py-5 sticky-top flex-grow-1">
                 <div class="nav flex-sm-column">
 					<div class="container">
                         <!--08. Request-->

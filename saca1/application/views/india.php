@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-------CSS Styleshet----------------------------------------------------------------------------------------->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/poland.css');?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/india.css');?>">
 
     <!--link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css');?>"-->
 
@@ -33,23 +33,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!--05. marquee-->
         <div id="marq">
            <marquee>
-               <span class="marq-text blue-shade">Get an opportunity to Study in Poland</span>
+               <span class="marq-text brown-shade">Get an opportunity to Study in India</span>
            </marquee>
         </div>
 
         <!--06. why-study-->
         <div id="why-study">
             <div class="container">
-                <h4>Why study in Poland</h4>
-                <ul>
-                    <li>Work Part time.</li>
-                    <li>Internationally Recognized degrees.</li>
-                    <li>Travel across Europe visa free.</li>
-                    <li>Affordable living conditions.</li>
-                    <li>Extension of visa upon completion of degree for job search.</li>
-                    <li>Affordable fees.</li>
-                    <li>Minimum wage 480 Euro.</li>
-                </ul>
+                <h4>Why study in India</h4>
+                <p>
+                    India has undergone a paradigm shift owing to its competitive stand in the world. The Indian economy is on a robust growth trajectory and boasts of a stable 8 plus annual growth rate, rising foreign exchange reserves and booming capital markets among others.
+                </p>
+                <p><span class="bold">Low Cost:</span> The cost of education in India is quite low as compared to many other countries of the world.</p>
             </div>
         </div>
 
@@ -60,50 +55,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section id="mainContainer">
 	<div class="containter">
 	   <div class="row">
-           <div class="col-md-9">
+           <div class="col-md-9 left">
 			   <div id="basic-info">
-                   <h3>Basic <span class="blue-shade">Information</span></h3>
+                   <h3>Basic <span class="brown-shade">Information</span></h3>
                    <p>
-                        The Republic of Poland (Rzeczpospolita Polska) is one of the largest countries in Central Europe, bordering Russia, Lithuania, Belarus, Ukraine, Slovakia, the Czech Republic and Germany.
+                   Today, India is known as a communication hub, and has become popular with study abroad students from all over the world. It is highly attractive due to its forward thinking, its popularity with large multinational companies, and also due to English being the common language of communication.  According to Peter Drucker, "India is become a power house very fast, the medical school in New Delhi is now perhaps the best in the world.  The technical graduates of Indian Institute of Technology, Bangalore are as good as any in the world. Also India has 150 million people for whom English is their main language so India is indeed becoming a knowledge center".
                     </p>
-                   <p><span class="bold">Population –</span> 38,637,899 people </p>
+                    
+                    <h5 class="bold brown-shade">
+                        India in short facts & figures
+                    </h5>
                    <p>
-                       <span class="bold">
-                           Major Cities in Poland
-                        </span>
-                        <ol>
-                            <li>Warsaw</li>
-                            <li>Krakow</li>
-                            <li>Lodz</li>
-                            <li>Wroclaw  </li>
-                            <li>Poznan</li>
-                            <li>Gdansk</li>
-                            <li>Szczecin</li>
-                            <li>Lublin</li>
-                        </ol>
+                       <span class="bold">Capital:</span> New Delhi
+                   </p>
+                   <p>
+                       <span class="bold">Official language:</span> Hindi and English
+                   </p>
+                   <p>
+                       <span class="bold">Government:</span> Federal parliamentary republic
+                   </p>
+                   <p>
+                       <span class="bold">Area:</span> 1,269,346 square miles/ 3,287,263 square kilometers
+                   </p>
+                   <p>
+                       <span class="bold">Population:</span> 1.29 billion
+                   </p>
+                   <p>
+                       <span class="bold">Currency:</span> Indian rupee (₹) (INR)
                     </p>
-                    <p>
-                    Weather in Poland is situated in a moderate climate zone. In summer (July) – the temperature varies from 25° to 35° Celsius. The coldest months are January and February with temperatures falling a couple of degrees below zero. <br>
-                    <ol>
-                        <li> 
-                            <span class="bold">Autumn:</span> from September to November.
-                        </li>
-                        <li>
-                            <span class="bold">Winter:</span> from December to February.
-                        </li>
-                        <li>
-                            <span class="bold">Spring:</span> from March to May.
-                        </li>
-                        <li>
-                            <span class="bold">Summer:</span> from June to August.
-                        </li>
-                    </ol>
-                    </p>
+                   <p>
+                       <span class="bold">Calling code:</span> +91
+                   </p>
+    
                </div>
 		   </div>
 
            <div class="col-md-3 r px-1 bg-dark min-vh-50">
-            <div class="py-2 sticky-top flex-grow-1">
+            <div class="py-5 sticky-top flex-grow-1">
                 <div class="nav flex-sm-column">
 					<div class="container">
                         <!--08. Request-->

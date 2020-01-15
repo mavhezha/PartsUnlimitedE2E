@@ -49,6 +49,22 @@ body{
   color: #0f1aee !important;
 }
 
+.green-shade{
+  color: #309138;
+}
+
+.grey-shade{
+  color: #d8d8da;
+}
+
+.brown-shade{
+    color: #8d5345;
+}
+
+.bold{
+  font-weight: 700;
+}
+
 h3{
   font-size: 2.3rem;
   font-weight: bolder !important;
@@ -92,110 +108,124 @@ a {
  *  03. banner & main navigation bar
  *
  * ------------------------------------------------------------------- */
- .bg-light{
-  opacity: 0.8;
+.bg-light{
+    opacity: 0.8;
 }
 
 .navbar.scrolled{
-background: #fff !important;
-opacity: 1;
-transition: 0.5s;
-padding: 0px;
+  background: #fff !important;
+  opacity: 1;
+  transition: 0.5s;
+  padding: 0px;
 }
-
 
 
 .navbar-nav .nav-item:last-child{
-margin-right: 100px;
+  margin-right: 100px;
 }
 
 .navbar-nav .nav-link {
-padding-right: 0;
-padding-left: 0;
-font-size: .9rem;
-font-weight: bolder;
-color: #0f1aee !important;
+  padding-right: 0;
+  padding-left: 0;
+  font-size: .9rem;
+  font-weight: bolder;
+  color: #4485af !important;
 }
 
 .navbar-nav .nav-link:hover{
-color: rgb(16, 1, 153) !important;
+  color: rgb(16, 1, 153) !important;
 }
 
 /* ===================================================================
- *  04. services-intro
+ *  04. poland-banner
  *
  * ------------------------------------------------------------------- */
- #services-intro{
-     background: #000;
-     opacity: .8;
-     padding: 100px 0px 50px 0px;
-     text-align: center;
-     color: #fff;
+ #poland-banner{
+   background: url("images/india-info.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100%;
+   height: 660px;
  }
 
  /* ===================================================================
- *  05. services 
+ *  05. marquee
  *
  * ------------------------------------------------------------------- */
-#services-container{
-padding-bottom: 50px; 
-background-color: #f9f9f7;
-}
-
-#services-container h3{
-  padding-top: 30px;
-  text-align: center;
-}
-
-.service {
-margin-top: 40px;
- padding: 15px 15px 20px 15px;
- background: #f8f8f8;
- border-bottom: 2px solid #111781;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- text-align: center;
-}
-
-.service:hover {
- box-shadow: 0 5px 15px 0 rgba(0,0,0,.05), 0 1px 25px 0 rgba(0,0,0,.05) inset, 0 -1px 25px 0 rgba(0,0,0,.05) inset;
- -o-transition: all .5s; -moz-transition: all .5s; -webkit-transition: all .5s; -ms-transition: all .5s; transition: all .5s;
-}
-
-.service .service-icon {
- font-size: 50px;
- line-height: 50px;
- color: #0f1aee;
-}
-
-.service .service-icon i { vertical-align: middle; }
-
-.service h3 {
- font-family: 'Droid Sans', sans-serif;
- font-size: 14px;
- color: #5d5d5d;
- font-weight: bold;
- text-transform: uppercase;
- text-shadow: 0 1px 0 rgba(255,255,255,.7);
-
-}
-
-.service p {
- padding-bottom: 7px;
- line-height: 24px;
-}
-
+ .marq-text{
+   font-size: 1.8rem;
+   font-weight: 900;
+   word-spacing: 10px;
+ }
 
  /* ===================================================================
- *  03.
+ *  06. why-study
+ *
+ * ------------------------------------------------------------------- */
+ #why-study{
+   background-color: #8d5345;
+   padding: 20px 0px;
+ }
+
+ /* ===================================================================
+ *  07. mainContainer
+ *
+ * ------------------------------------------------------------------- */
+ #mainContainer {
+  padding: 40px 200px;
+}
+
+.left{
+    padding-right: 50px;
+}
+
+/* ===================================================================
+ *  08. registration
  *
  * ------------------------------------------------------------------- */
 
+.bg-dark{
+  background-color: #8d5345 !important;
+  border-radius: 5px;
+}
+
+.txt, .form-group input[type="text"], input[type="email"], input[type="phone"], input[type="date"]{
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  color: grey;
+  padding: 10px;
+}
+
+.r h5{
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+form{
+  padding-top: 20px;
+}
+
+.btn{
+  color: #000;
+  font-weight: 700;
+}
+
  /* ===================================================================
- *  03. 
+ *  10. body footer
  *
  * ------------------------------------------------------------------- */
 
  /* ===================================================================
+ *  10. body footer
+ *
+ * ------------------------------------------------------------------- */
+
+
+/* ===================================================================
  *  10. body footer
  *
  * ------------------------------------------------------------------- */

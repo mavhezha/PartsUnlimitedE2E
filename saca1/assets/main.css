@@ -17,9 +17,7 @@
  *  01. webfonts and iconfonts 
  *
  * ------------------------------------------------------------------- */
- @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
- @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
+ @import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,800,900|Roboto:100,300,400,700,900&display=swap');
  /* ===================================================================
  *  02. typography & general theme styles
  *
@@ -67,6 +65,10 @@ h3{
   border: none;
 }
 
+a {
+  border: none;
+}
+
 /* ===================================================================
  *  03. main navigation bar
  *
@@ -79,6 +81,7 @@ h3{
   background: #fff !important;
   opacity: 1;
 	transition: 0.5s;
+  padding: 0px;
 }
 
 
@@ -108,6 +111,30 @@ h3{
   height: 100vh;
 }
 
+.blink{
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  text-align: center;;
+}
+
+.blink h3{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fff !important; 
+}
+
+.blinking{
+  animation:blinkingText 3.0s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color: #000; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+
 /* ===================================================================
  *  04. about us
  *
@@ -115,6 +142,7 @@ h3{
  #about-us{
    margin: 30px 0px;
  }
+
 
  /* ===================================================================
  *  05. services
@@ -293,7 +321,6 @@ td, th {
    background-color: #000;
    opacity: .8;
    color: #fff;
-   text-align: ;
  }
 
  .footer-info{
